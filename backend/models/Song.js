@@ -1,4 +1,3 @@
-import { Album } from "lucide-react";
 import mongoose from "mongoose";
 
 const schema = new mongoose.Schema({
