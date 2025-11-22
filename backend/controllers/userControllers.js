@@ -3,7 +3,6 @@ import { User } from "../models/User.js";
 import TryCatch from "../utils/TryCatch.js";
 import bcrypt from "bcryptjs";
 import generateToken from "../utils/generateTokens.js";
-import { Maximize } from "lucide-react";
 
 //when we register user, we create user in db and generate token and send it as cookie
 export const registerUser = TryCatch(async(req,res)=> {
